@@ -31,19 +31,31 @@
     Drag with two fingers to rotate •  Pinch to zoom in zoom out •  Tap icon below to "View in your space"
   </div>
 
-  <model-viewer
-    src="chocopastry.glb"
-    ar
-    ar-modes="scene-viewer webxr quick-look"
-    ar-placement="floor"
-    camera-controls
-    shadow-intensity="1"
-    exposure="2"
-    scale="0.4 0.4 0.4"
-    min-camera-orbit="auto auto auto"
-    max-camera-orbit="auto auto auto"
-    style="width:100%; height:80vh;">
-  </model-viewer>
+ <model-viewer
+  src="chocopastry.glb"
+
+  ar
+  ar-modes="scene-viewer webxr quick-look"
+  ar-placement="floor"
+
+  camera-controls
+
+  exposure="2.8"
+  tone-mapping="commerce"
+
+  environment-image="legacy"
+  environment-intensity="2.2"
+
+  shadow-intensity="0.4"
+  shadow-softness="1"
+
+  scale="0.55 0.55 0.55"
+
+  min-camera-orbit="auto auto auto"
+  max-camera-orbit="auto auto auto"
+
+  style="width:100%; height:80vh;">
+</model-viewer>
 
 </body>
 
